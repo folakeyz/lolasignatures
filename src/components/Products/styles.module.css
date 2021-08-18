@@ -1,0 +1,65 @@
+.pcard {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardImg {
+    width: 100%;
+    height: 15rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cardImg img {
+    width: 100%;
+}
+
+.cardText {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 2rem 1rem;
+}
+
+.cardText a {
+    text-decoration: none;
+}
+
+.cardText a h5 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cardText h6 {
+    text-decoration: none;
+    font-size: 14px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.rating {
+    padding: 1rem 0;
+}
+
+.rating span {
+    color: forestgreen;
+}
+
+.cardText small {
+    font-style: 10px;
+
+}
+
+
+.cardText a svg {
+    font-style: 15px;
+
+}
