@@ -1,0 +1,571 @@
+.content {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 2rem 10rem;
+}
+
+.form {
+    width: 40%;
+    height: auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.formLogo {
+    width: 100%;
+    height: 6rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.formLogo img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.formContainer {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+}
+
+.formContainer p {
+    text-align: center;
+}
+
+.courseGrid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.courseImg {
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+}
+
+.courseImg img {
+    width: 100%;
+}
+
+.course {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem 2rem;
+}
+
+.course h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #640ad2;
+}
+
+.cartPageGrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+}
+
+.cart {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.cartGrid {
+    display: grid;
+    grid-template-columns: 15% 50% 15% 20%;
+}
+
+.items {
+    width: 100%;
+    min-height: 7rem;
+    overflow: hidden;
+    padding: 1.5rem .5rem;
+    text-align: center;
+}
+
+.cartImg {
+    padding: 0;
+}
+
+.cartImg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.sectionItems {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+
+
+.btn {
+    background: yellowgreen;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.orderGrid {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-gap: 5%;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.priceBox {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid gainsboro;
+    padding: 1rem;
+}
+
+.priceGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.oCards {
+    width: 100%;
+    height: auto;
+    background: white;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.orderContainerSm {
+    width: 50%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+}
+
+.orderContainer {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+}
+
+.orderTitle {
+    width: 100%;
+    height: 3rem;
+    display: block;
+    padding: 1rem .5rem;
+    background: white;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+
+.orderContainer label {
+    font-size: 12px;
+}
+
+.orderContainer input {
+    height: 3rem;
+}
+
+
+.orderContainerSm label {
+    font-size: 12px;
+}
+
+.orderContainerSm input {
+    height: 3rem;
+}
+
+.orderContainerBg {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+    float: left;
+}
+
+
+
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+    .content {
+        /* padding: 2rem 10rem; */
+        padding: 1rem;
+    }
+
+    .courseGrid {
+        /* grid-template-columns: 40% 60%; */
+        grid-template-columns: 100%;
+    }
+
+    .orderGrid {
+        /* grid-template-columns: 50% 40%; */
+        grid-template-columns: 100%;
+        grid-gap: 0%;
+    }
+
+    .formGrid {
+        /* grid-template-columns: 50% 50%; */
+        grid-template-columns: 100%;
+    }
+
+    .cartPageGrid {
+
+        /* grid-template-columns: 60% 40%; */
+        grid-template-columns: 100%;
+    }
+
+    .cartGrid {
+        /* grid-template-columns: 15% 50% 15% 20%; */
+        grid-template-columns: 100%;
+    }
+
+    .items {
+        padding: .5rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+
+    .content {
+        /* padding: 2rem 10rem; */
+        padding: 1rem;
+    }
+
+    .courseGrid {
+        /* grid-template-columns: 40% 60%; */
+        grid-template-columns: 100%;
+    }
+
+    .orderGrid {
+        /* grid-template-columns: 50% 40%; */
+        grid-template-columns: 100%;
+        grid-gap: 0%;
+    }
+
+    .formGrid {
+        /* grid-template-columns: 50% 50%; */
+        grid-template-columns: 100%;
+    }
+
+    .cartPageGrid {
+
+        /* grid-template-columns: 60% 40%; */
+        grid-template-columns: 100%;
+    }
+
+    .cartGrid {
+        /* grid-template-columns: 15% 50% 15% 20%; */
+        grid-template-columns: 100%;
+    }
+
+    .items {
+        padding: .5rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .content {
+        padding: 2rem 3rem;
+    }
+
+    .courseGrid {
+        /* grid-template-columns: 40% 60%; */
+        grid-template-columns: 100%;
+    }
+
+    .orderGrid {
+        /* grid-template-columns: 50% 40%; */
+        grid-template-columns: 100%;
+        grid-gap: 0%;
+    }
+
+    .formGrid {
+        /* grid-template-columns: 50% 50%; */
+        grid-template-columns: 100%;
+    }
+
+    .cartPageGrid {
+
+        /* grid-template-columns: 60% 40%; */
+        grid-template-columns: 100%;
+    }
+
+    .cartGrid {
+        /* grid-template-columns: 15% 50% 15% 20%; */
+        grid-template-columns: 100%;
+    }
+
+    .items {
+        padding: 1rem .5rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .content {
+        padding: 2rem 5rem;
+    }
+
+    .courseGrid {
+        grid-template-columns: 40% 60%;
+    }
+
+    .orderGrid {
+        grid-template-columns: 50% 40%;
+        grid-gap: 5%;
+    }
+
+    .formGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cartPageGrid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .cartGrid {
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .items {
+        padding: 1.5rem .5rem;
+    }
+
+    .form {
+        width: 50%;
+    }
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .content {
+        padding: 2rem 6rem;
+    }
+
+    .courseGrid {
+        grid-template-columns: 40% 60%;
+    }
+
+    .orderGrid {
+        grid-template-columns: 50% 40%;
+        grid-gap: 5%;
+    }
+
+    .formGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cartPageGrid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .cartGrid {
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .items {
+        padding: 1.5rem .5rem;
+    }
+
+    .form {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .content {
+        padding: 2rem 8rem;
+    }
+
+    .courseGrid {
+        grid-template-columns: 40% 60%;
+    }
+
+    .orderGrid {
+        grid-template-columns: 50% 40%;
+        grid-gap: 5%;
+    }
+
+    .formGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cartPageGrid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .cartGrid {
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .items {
+        padding: 1.5rem .5rem;
+    }
+
+    .form {
+        width: 40%;
+    }
+}
+
+/* .desktop-up */
+@media (min-width: 1300px) {
+    .content {
+        padding: 2rem 10rem;
+    }
+
+    .courseGrid {
+        grid-template-columns: 40% 60%;
+    }
+
+    .orderGrid {
+        grid-template-columns: 50% 40%;
+        grid-gap: 5%;
+    }
+
+    .formGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cartPageGrid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .cartGrid {
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .items {
+        padding: 1.5rem .5rem;
+    }
+
+    .form {
+        width: 40%;
+    }
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .content {
+        padding: 2rem 10rem;
+    }
+
+    .courseGrid {
+        grid-template-columns: 40% 60%;
+    }
+
+    .orderGrid {
+        grid-template-columns: 50% 40%;
+        grid-gap: 5%;
+    }
+
+    .formGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cartPageGrid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .cartGrid {
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .items {
+        padding: 1.5rem .5rem;
+    }
+
+    .form {
+        width: 40%;
+    }
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .content {
+        padding: 2rem 10rem;
+    }
+
+    .courseGrid {
+        grid-template-columns: 40% 60%;
+    }
+
+    .orderGrid {
+        grid-template-columns: 50% 40%;
+        grid-gap: 5%;
+    }
+
+    .formGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cartPageGrid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .cartGrid {
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .items {
+        padding: 1.5rem .5rem;
+    }
+
+    .form {
+        width: 40%;
+    }
+}

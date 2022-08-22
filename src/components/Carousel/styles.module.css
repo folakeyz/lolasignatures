@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
+
+.carousel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    background-size: cover;
+    background: whitesmoke;
+    padding-bottom: 0;
+    justify-content: space-around;
+    background: url('../../assets/item1.jpg');
+    background-size: contain;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .carousel {
+        padding-top: 0;
+        background: url('../../assets/item1.jpg');
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel {
+        padding-top: 0;
+        background: url('../../assets/item1.jpg');
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel {
+        padding-top: 5rem;
+        background: white;
+    }
+
+}

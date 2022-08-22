@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
+
+.carousel {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    background: white;
+    background-size: cover;
+    padding: 1rem 10rem;
+}
+
+.carouselGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: block;
+
+}
+
+.cards img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: -2rem;
+}
+
+.img img {
+    width: 100%;
+}
+
+.padding {
+    padding-top: 10rem;
+}
+
+.padding h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #202E4D;
+}
+
+.btn {
+    padding: 1.2rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: none
+}
+
+.pink {
+    background: #FF3E6D;
+    color: white;
+}
+
+.white {
+    background: white;
+    border: 1px solid #FF3E6D;
+    color: #FF3E6D;
+}
+
+.white:hover {
+    background: #FF3E6D;
+    color: white;
+}
+
+.pink:hover {
+    background: yellowgreen;
+    color: white;
+}
+
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+    .carousel {
+        padding: 1rem;
+    }
+
+    .cards {
+        padding: 1rem;
+    }
+
+    .carouselGrid {
+        grid-template-columns: 100%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /* .btn {
+        display: flex;
+        margin-bottom: 1rem;
+    } */
+
+
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+    .carousel {
+        padding: 1rem;
+    }
+
+    .cards {
+        padding: 1rem;
+    }
+
+    .carouselGrid {
+        grid-template-columns: 100%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /* .btn {
+        display: flex;
+        margin-bottom: 1rem;
+    } */
+
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .carousel {
+        padding: 1rem 3rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 100%;
+    }
+
+
+
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .carousel {
+        padding: 1rem 3rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-top: 5rem;
+    }
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 80%;
+    }
+
+
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .carousel {
+        padding: 1rem 5rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-top: 5rem;
+    }
+
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 70%;
+    }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .carousel {
+        padding: 1rem 5rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-top: 5rem;
+    }
+
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 70%;
+    }
+
+}
+
+/* .desktop-up */
+@media (min-width: 1300px) {
+    .carousel {
+        padding: 1rem 7rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-top: 10rem;
+    }
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 60%;
+    }
+
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .carousel {
+        padding: 1rem 10rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-top: 10rem;
+    }
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 60%;
+    }
+
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .carousel {
+        padding: 1rem 10rem;
+    }
+
+    .cards {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-top: 10rem;
+    }
+
+
+    .carouselGrid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img {
+        width: 60%;
+    }
+
+
+}

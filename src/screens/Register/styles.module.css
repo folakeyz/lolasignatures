@@ -1,0 +1,32 @@
+@media screen and (max-width: 1050px) {
+    .productContainer {
+        padding: 2rem 7rem;
+    }
+
+    .forms {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .productContainer {
+        padding: 2rem;
+    }
+
+    .forms {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .productContainer {
+        padding: 2rem;
+    }
+
+    .forms {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

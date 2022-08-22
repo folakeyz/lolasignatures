@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    padding: 5rem;
+}
+
+.footerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-basis: 23%;
+    flex-direction: column;
+}
+
+.cards h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.cards ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.cards ul li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 2rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons svg {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}

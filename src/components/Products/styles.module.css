@@ -1,0 +1,14 @@
+.rating {
+    padding: 1rem 0;
+    display: flex;
+
+}
+
+.rating span {
+    color: goldenrod;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}

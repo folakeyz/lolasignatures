@@ -1,0 +1,29 @@
+.productContainer {
+    display: flex;
+    padding: 2rem 10rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .productContainer {
+        padding: 2rem 6rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .productContainer {
+        padding: 2rem 3rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .productContainer {
+        padding: 2rem;
+        gap: 0;
+    }
+}

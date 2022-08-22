@@ -1,0 +1,9 @@
+.hero {
+    display: flex;
+    padding: 7rem 5rem;
+    background: url('../../assets/item1.jpg');
+    background-position: center;
+    min-height: 20rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
